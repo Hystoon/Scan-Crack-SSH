@@ -86,7 +86,7 @@ def maximum_control():
 
     else:
         ssh.close()
-        print("Good Work, Mister Dasrael Rubnir !")
+        print("Good Work !")
         exit()
 
 
