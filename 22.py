@@ -53,7 +53,7 @@ def sorek_ports():
 
 def bruteforce_ssh():
     n = 1
-    passlist = open("/etc/share/wordlists/rockyou.txt", "r")
+    passlist = open("/etc/share/wordlists/yourlist.txt", "r")
     for line in passlist.readlines():
         attempt = line.strip().split(":")
         username = attempt[0]
